@@ -1,0 +1,128 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.flip-link{
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  height: 20px;
+  cursor: pointer;
+}
+
+.flip-link .text{
+  display: block;
+  line-height: 20px;
+}
+
+.flip-link .top{
+  color: var(--color-text);
+}
+
+.flip-link .bottom{
+  color: var(--color-primary);
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+
+
+
+/* ------------------------ Premium Themes ------------------------ */
+
+/* Light Theme */
+.theme-light {
+  --color-primary: #1d4ed8;   /* Blue */
+  --color-secondary: #9333ea; /* Purple */
+  --color-accent: #f59e0b;    /* Amber */
+  --color-bg: #ffffff;        /* White */
+  --color-card: #f3f4f6;      /* Light Gray */
+  --color-text: #111827;      /* Dark Gray */
+  --color-muted: #6b7280;     /* Medium Gray */
+}
+
+/* Dark Theme */
+.theme-dark {
+  --color-primary: #faca09;   /* Yellow */
+  --color-secondary: #ebe5c0; /* Pink */
+  --color-accent: #10b981;    /* Emerald */
+  --color-bg: #141415;        /* Dark Black */
+  --color-card: #1f1f23;      /* Dark Gray */
+  --color-text: #f1f2f5;      /* Off-White */
+  --color-muted: #9ca3af;     /* Gray */
+}
+
+/* Ocean Theme */
+.theme-ocean {
+  --color-primary: #0ea5e9;   /* Sky Blue */
+  --color-secondary: #14b8a6; /* Teal */
+  --color-accent: #06b6d4;    /* Cyan */
+  --color-bg: #e0f2fe;        /* Light Blue */
+  --color-card: #bae6fd;      /* Soft Blue */
+  --color-text: #0f172a;      /* Dark Navy */
+  --color-muted: #475569;     /* Slate Gray */
+}
+
+/* Sunset Theme */
+.theme-sunset {
+  --color-primary: #f97316;   /* Orange */
+  --color-secondary: #f43f5e; /* Pink Red */
+  --color-accent: #fde68a;    /* Yellow */
+  --color-bg: #fff7ed;        /* Cream */
+  --color-card: #ffe7d6;      /* Light Peach */
+  --color-text: #7c2d12;      /* Dark Red */
+  --color-muted: #92400e;     /* Rust */
+}
+
+/* Forest Theme */
+.theme-forest {
+  --color-primary: #15803d;   /* Dark Green */
+  --color-secondary: #10b981; /* Emerald */
+  --color-accent: #fcd34d;    /* Gold */
+  --color-bg: #f0fdf4;        /* Mint */
+  --color-card: #dcfce7;      /* Light Green */
+  --color-text: #064e3b;      /* Deep Green */
+  --color-muted: #16a34a;     /* Green Accent */
+}
+
+/* Violet Dream Theme */
+.theme-violet {
+  --color-primary: #7c3aed;   /* Violet */
+  --color-secondary: #a78bfa; /* Light Violet */
+  --color-accent: #f472b6;    /* Pink Accent */
+  --color-bg: #f5f3ff;        /* Lavender */
+  --color-card: #ede9fe;      /* Soft Lavender */
+  --color-text: #4c1d95;      /* Deep Violet */
+  --color-muted: #6b21a8;     /* Medium Violet */
+}
+
+/* Candy Theme */
+.theme-candy {
+  --color-primary: #ec4899;   /* Hot Pink */
+  --color-secondary: #f59e0b; /* Amber */
+  --color-accent: #10b981;    /* Teal */
+  --color-bg: #fff0f6;        /* Soft Pink */
+  --color-card: #ffe4f0;      /* Candy Pink */
+  --color-text: #831843;      /* Deep Pink */
+  --color-muted: #d946ef;     /* Magenta */
+}
+
+/* ---------------- Apply theme variables ---------------- */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+.card {
+  background-color: var(--color-card);
+  color: var(--color-text);
+}
+
+a, button {
+  color: var(--color-primary);
+}
+
+a:hover, button:hover {
+  color: var(--color-secondary);
+}
