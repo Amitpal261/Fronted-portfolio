@@ -173,9 +173,6 @@ const ProjectComponent = () => {
                 {/* Content */}
                 <div className="absolute bottom-0 left-0 p-6 opacity-0 group-hover:opacity-100 transition text-white">
                   <h2 className="text-5xl font-bold">{p.title}</h2>
-                  <p className="text-text/70 text-sm mt-2 max-w-md">
-                    {p.disc}
-                  </p>
                 </div>
               </div>
               <button

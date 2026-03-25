@@ -136,9 +136,6 @@ const Projectss = () => {
                 <h2 className="text-3xl md:text-5xl font-semibold mb-3">
                   {p.title}
                 </h2>
-                <h2 className="text-text/70  text-lg md:text-base max-w-md leading-relaxed opacity-0 group-hover:opacity-100 transition duration-500">
-                  {p.disc}
-                </h2>
                 <p className="text-text/70 text-sm md:text-base max-w-md leading-relaxed opacity-0 group-hover:opacity-100 transition duration-500 flex flex-wrap gap-2">
                   
                   {p.tech.map((v, i) => (
