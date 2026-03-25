@@ -6,14 +6,12 @@ const API_URL = "https://portfolio-backend-0r3g.onrender.com/api/projects"; // u
 
 // Helper: Logout function (clear token)
 
-
 export default function AdminProjectUpload() {
-  const navigate = useNavigate()
+  const navigate = useNavigate();
   const logout = () => {
-  
-  localStorage.removeItem("token");
-  navigate("/admin"); // redirect after logout
-};
+    localStorage.removeItem("token");
+    navigate("/admin"); // redirect after logout
+  };
   const [form, setForm] = useState({
     title: "",
     category: "",
@@ -66,13 +64,18 @@ export default function AdminProjectUpload() {
       formData.append("disc", form.disc);
       formData.append(
         "tech",
-        JSON.stringify(form.tech.split(",").map((t) => t.trim()))
+        JSON.stringify(form.tech.split(",").map((t) => t.trim())),
       );
       formData.append("github", form.github);
       formData.append("live", form.live);
       formData.append("featured", form.featured);
 
-      await axios.post(API_URL, formData);
+      await axios.post(API_URL, formData, {
+        headers: {
+          Authorization: `Bearer ${token}`, // <-- send the token
+          "Content-Type": "multipart/form-data", // important for file uploads
+        },
+      });
 
       alert("Project uploaded successfully!");
 
@@ -108,9 +111,7 @@ export default function AdminProjectUpload() {
             Logout
           </button>
         </div>
-        <h1>
-          Admin Project Upload
-        </h1>
+        <h1>Admin Project Upload</h1>
 
         <form
           onSubmit={handleSubmit}
