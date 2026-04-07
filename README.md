@@ -6,7 +6,8 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-ammiit.netlify.app-brightgreen?style=for-the-badge&logo=netlify)](https://ammiit.netlify.app)
 [![GitHub](https://img.shields.io/badge/GitHub-Amitpal261-181717?style=for-the-badge&logo=github)](https://github.com/Amitpal261)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-amit--pal-0A66C2?style=for-the-badge&logo=linkedin)](https://linkedin.com/in/amit-pal)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-amit--pal-0A66C2?style=for-the-badge&logo=linkedin)](www.linkedin.com/in/
+amit-pal-05639a33a)
 
 </div>
 
@@ -72,7 +73,7 @@ The portfolio is not just a static site — it is a **live, data-driven applicat
 > Replace the placeholder links below with your actual screenshot links
 
 ### 🏠 Home / Hero Section
-![Home Section](https://your-screenshot-link/home.png)
+![Home Section]((image.png))
 
 ### 🧑‍💻 About Section
 ![About Section](https://your-screenshot-link/about.png)
