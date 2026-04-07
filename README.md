@@ -73,19 +73,19 @@ The portfolio is not just a static site — it is a **live, data-driven applicat
 > Replace the placeholder links below with your actual screenshot links
 
 ### 🏠 Home / Hero Section
-![Home Section]((image.png))
+![Home Section]()
 
 ### 🧑‍💻 About Section
-![About Section](assets\ammiit.netlify.app_about(Nest Hub Max) (2).png)
+![About Section](assets/ammiit.netlify.app_about(Nest Hub Max) (2).png)
 
 ### 🗂️ Projects Section
-![Projects Section](assets\ammiit.netlify.app_projects(Nest Hub Max).png)
+![Projects Section](assets/ammiit.netlify.app_projects(Nest Hub Max).png)
 
 ### 📬 Contact Section
-![Contact Section](assets\ammiit.netlify.app_contact(Nest Hub Max).png)
+![Contact Section](./assets/ammiit.netlify.app_contact(Nest Hub Max).png)
 
 ### 🔐 Admin Dashboard
-![Admin Dashboard](public\assets\ammiit.netlify.app_upload(Nest Hub Max).png)
+![Admin Dashboard](public/assets/ammiit.netlify.app_upload(Nest Hub Max).png)
 
 ---
 
