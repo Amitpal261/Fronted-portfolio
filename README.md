@@ -97,7 +97,7 @@ The portfolio is not just a static site — it is a **live, data-driven applicat
 ![Contact Section](public/assets/contact4.png)
 
 # 🔐 Admin Dashboard
-![Admin Dashboard](/assets/admin.png)
+![Admin Dashboard](public/assets/admin.png)
 
 ---
 
