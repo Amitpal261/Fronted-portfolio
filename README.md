@@ -72,16 +72,16 @@ The portfolio is not just a static site — it is a **live, data-driven applicat
 
 > Replace the placeholder links below with your actual screenshot links
 
-### 🏠 Home / Hero Section
+# 🏠 Home / Hero Section
 ![Home Section](public/assets/home_website.png)
 
-### 🧑‍💻 About Section
+# 🧑‍💻 About Section
 ![About Section](public/assets/about.png)
 
-### 🗂️ Projects Section
+# 🗂️ Projects Section
 ![Projects Section](public/assets/projects.png)
 
-### 🎨 All THEMES
+# 🎨 All THEMES
 ![THEMES](public/assets/ALL-THEME.png)
 ## OCEAN
 ![Contact Section](public/assets/contact2.png)
@@ -93,10 +93,10 @@ The portfolio is not just a static site — it is a **live, data-driven applicat
 ![Contact Section](public/assets/contact4.png)
 
 
-### 📬 Contact Section
+# 📬 Contact Section
 ![Contact Section](public/assets/contact4.png)
 
-### 🔐 Admin Dashboard
+# 🔐 Admin Dashboard
 ![Admin Dashboard](/assets/admin.png)
 
 ---
