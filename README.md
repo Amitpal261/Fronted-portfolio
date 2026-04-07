@@ -76,7 +76,7 @@ The portfolio is not just a static site — it is a **live, data-driven applicat
 ![Home Section](/assets/home_website.png)
 
 ### 🧑‍💻 About Section
-![About Section](/assets/about.png)
+![About Section](public/assets/about.png)
 
 ### 🗂️ Projects Section
 ![Projects Section](/assets/projects.png)
