@@ -6,8 +6,8 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-ammiit.netlify.app-brightgreen?style=for-the-badge&logo=netlify)](https://ammiit.netlify.app)
 [![GitHub](https://img.shields.io/badge/GitHub-Amitpal261-181717?style=for-the-badge&logo=github)](https://github.com/Amitpal261)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-amit-pal-05639a33a?style=for-the-badge&logo=linkedin)](www.linkedin.com/in/
-amit-pal-05639a33a)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-amit--pal-05639a33a?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/amit-pal-05639a33a)
+
 
 </div>
 
@@ -73,19 +73,31 @@ The portfolio is not just a static site — it is a **live, data-driven applicat
 > Replace the placeholder links below with your actual screenshot links
 
 ### 🏠 Home / Hero Section
-![Home Section](/assets/home_website.png)
+![Home Section](public/assets/home_website.png)
 
 ### 🧑‍💻 About Section
-![About Section](/assets/about.png)
+![About Section](public/assets/about.png)
 
 ### 🗂️ Projects Section
-![Projects Section](/assets/projects.png)
+![Projects Section](public/assets/projects.png)
+
+### 🎨 All THEMES
+![THEMES](public/assets/ALL-THEME.png)
+## OCEAN
+![Contact Section](public/assets/contact2.png)
+## LIGHT
+![Contact Section](public/assets/contact1.png)
+## SUNSET
+![Contact Section](public/assets/contact3.png)
+## DARK
+![Contact Section](public/assets/contact4.png)
+
 
 ### 📬 Contact Section
-![Contact Section](/assets/contact4.png)
+![Contact Section](public/assets/contact4.png)
 
 ### 🔐 Admin Dashboard
-![Admin Dashboard](/assets/admin.png)
+![Admin Dashboard](public/assets/admin.png)
 
 ---
 
