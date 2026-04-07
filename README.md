@@ -6,7 +6,7 @@
 
 [![Live Demo](https://img.shields.io/badge/Live%20Demo-ammiit.netlify.app-brightgreen?style=for-the-badge&logo=netlify)](https://ammiit.netlify.app)
 [![GitHub](https://img.shields.io/badge/GitHub-Amitpal261-181717?style=for-the-badge&logo=github)](https://github.com/Amitpal261)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-amit--pal-0A66C2?style=for-the-badge&logo=linkedin)](www.linkedin.com/in/
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-amit-pal-05639a33a?style=for-the-badge&logo=linkedin)](www.linkedin.com/in/
 amit-pal-05639a33a)
 
 </div>
@@ -73,19 +73,19 @@ The portfolio is not just a static site — it is a **live, data-driven applicat
 > Replace the placeholder links below with your actual screenshot links
 
 ### 🏠 Home / Hero Section
-![Home Section](/assets/placeholder.png)
+![Home Section](/assets/home_website.png)
 
 ### 🧑‍💻 About Section
-![About Section](assets/ammiit.netlify.app_about(Nest Hub Max) (2).png)
+![About Section](/assets/about.png)
 
 ### 🗂️ Projects Section
-![Projects Section](assets/ammiit.netlify.app_projects(Nest Hub Max).png)
+![Projects Section](/assets/projects.png)
 
 ### 📬 Contact Section
-![Contact Section](./assets/ammiit.netlify.app_contact(Nest Hub Max).png)
+![Contact Section](/assets/contact4.png)
 
 ### 🔐 Admin Dashboard
-![Admin Dashboard](public/assets/ammiit.netlify.app_upload(Nest Hub Max).png)
+![Admin Dashboard](/assets/admin.png)
 
 ---
 
