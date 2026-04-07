@@ -73,7 +73,7 @@ The portfolio is not just a static site — it is a **live, data-driven applicat
 > Replace the placeholder links below with your actual screenshot links
 
 ### 🏠 Home / Hero Section
-![Home Section](/assets/ALL-THEME.png)
+![Home Section](/assets/placeholder.png)
 
 ### 🧑‍💻 About Section
 ![About Section](assets/ammiit.netlify.app_about(Nest Hub Max) (2).png)
