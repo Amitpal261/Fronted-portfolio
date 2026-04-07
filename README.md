@@ -82,7 +82,7 @@ The portfolio is not just a static site — it is a **live, data-driven applicat
 ![Projects Section](public/assets/projects.png)
 
 # 🎨 All THEMES
-![THEMES](public/assets/all-theme.png)
+![THEMES](public/assets/ALL-THEME.png)
 ## OCEAN
 ![Contact Section](public/assets/contact2.png)
 ## LIGHT
