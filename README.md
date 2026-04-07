@@ -85,7 +85,7 @@ The portfolio is not just a static site — it is a **live, data-driven applicat
 ![Contact Section](/assets/contact4.png)
 
 ### 🔐 Admin Dashboard
-![Admin Dashboard](/assets/admin.png)
+![Admin Dashboard](https://raw.githubusercontent.com/Amitpal261/Fronted-portfolio/main/assets/admin.png)
 
 ---
 
