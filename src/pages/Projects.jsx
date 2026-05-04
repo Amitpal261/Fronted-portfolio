@@ -6,7 +6,7 @@ import { getProjects } from "../services/api.js";
 import { FaArrowRight, FaLine } from "react-icons/fa";
 import { FaLinode } from "react-icons/fa6";
 import { useNavigate } from "react-router-dom";
-
+ 
 gsap.registerPlugin(ScrollTrigger);
 
 const Projectss = () => {
@@ -20,7 +20,7 @@ const Projectss = () => {
     const fetchProjects = async () => {
       try {
         const token = localStorage.getItem("token");
-        console.log("Token:", token);
+        //console.log("Token:", token);
 
         const data = await getProjects(token);
         console.log("Projects:", data);

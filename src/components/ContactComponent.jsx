@@ -1,6 +1,8 @@
 import React from "react";
+import { useNavigate } from "react-router-dom";
 
 const ContactComponent = (props) => {
+  const navigate= useNavigate()
   return (
     <div
       className="w-full h-90 py-10 relative flex items-center justify-center px-6 md:px-20 mt-4 md:min-h-screen "
@@ -36,10 +38,10 @@ const ContactComponent = (props) => {
 
           {/* CTA Buttons */}
           <div className="flex gap-4 mt-8">
-            <button className={`px-6 py-3 bg-white text-black rounded-full font-semibold hover:scale-105 transition`}>
+            <button onClick={()=>navigate("/contact")} className={`px-6 py-3 bg-white text-black rounded-full font-semibold hover:scale-105 transition`}>
               Hire Me
             </button>
-            <button className={`px-6 py-3 border border-${props.color} text-white rounded-full hover:bg-white hover:text-black transition hover:translate-x-1`}>
+            <button onClick={()=>window.open("https://drive.google.com/file/d/1_TkxP6mdFEVFqYNzzhUearf2M9HFnB7i/view?usp=sharing")} className={`px-6 py-3 border border-${props.color} text-white rounded-full hover:bg-white hover:text-black transition hover:translate-x-1`}>
               Download CV
             </button>
           </div>

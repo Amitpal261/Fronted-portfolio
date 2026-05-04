@@ -14,7 +14,7 @@ const Contact = () => {
     service: "",
     disc: "",
   });
- 
+
   const [loading, setLoading] = useState(false);
 
   console.log("from :", form);
@@ -40,28 +40,27 @@ const Contact = () => {
     setForm({ ...form, [name]: value });
   };
 
- const handleSubmit = async (e) => {
-  e.preventDefault();
-  setLoading(true);
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    setLoading(true);
 
-  try {
-    await axios.post(API_URL, form);
+    try {
+      await axios.post(API_URL, form);
 
-    alert("Message sent successfully!");
+      alert("Message sent successfully!");
 
-    setForm({
-      name: "",
-      email: "",
-      service: "",
-      disc: "",
-    });
-
-  } catch (err) {
-    alert(err.response?.data?.message || "Failed");
-  } finally {
-    setLoading(false);
-  }
-};
+      setForm({
+        name: "",
+        email: "",
+        service: "",
+        disc: "",
+      });
+    } catch (err) {
+      alert(err.response?.data?.message || "Failed");
+    } finally {
+      setLoading(false);
+    }
+  };
   return (
     <div
       ref={containerRef}
@@ -104,29 +103,47 @@ const Contact = () => {
 
           <div>
             <p className="text-text/60 text-sm">Email</p>
-            <p>yourmail@gmail.com</p>
+            <p>amit.pal336900@gmail.com</p>
           </div>
 
           <div>
             <p className="text-text/60 text-sm">Phone</p>
-            <p>+91 XXXXX XXXXX</p>
+            <p>+91 892968XXXX</p>
           </div>
 
           {/* Socials */}
           <div className="flex gap-4 mt-4">
             {[
-              <FaWhatsapp />,
-              <SiInstagram />,
-              <SiGmail />,
-              <FaLinkedinIn />,
-              <FaGithub />,
-            ].map((s, i) => (
-              <div
-                key={i}
+              {
+                icon: <FaWhatsapp />,
+                url: "https://wa.me/your-number",
+              },
+              {
+                icon: <SiInstagram />,
+                url: "https://instagram.com/your-username",
+              },
+              {
+                icon: <SiGmail />,
+                url: "mailto:amit.pal336900@gmail.com?subject=Hello&body=I want to connect with you",
+              },
+              {
+                icon: <FaLinkedinIn />,
+                url: "https://www.linkedin.com/in/amit-pal-05639a33a/",
+              },
+              {
+                icon: <FaGithub />,
+                url: "https://github.com/Amitpal261",
+              },
+            ].map((item, index) => (
+              <a
+                key={index}
+                href={item.url}
+                target="_blank"
+                rel="noopener noreferrer"
                 className="w-10 h-10 flex items-center justify-center rounded-full border border-text bg-text text-bg hover:bg-bg hover:text-text hover:border-none transition cursor-pointer text-3xl overflow-hidden"
               >
-                {s}
-              </div>
+                {item.icon}
+              </a>
             ))}
           </div>
         </div>
@@ -158,7 +175,7 @@ const Contact = () => {
 
           {/* Select */}
           <select
-          name="service"
+            name="service"
             value={form.service}
             onChange={handleChange}
             className=" text-gray-400 bg-transparent from-text via-secondary to-text w-full px-5 py-3 backdrop-blur-xl rounded-full flex items-center justify-center border border-text"
@@ -173,7 +190,7 @@ const Contact = () => {
 
           {/* Textarea */}
           <textarea
-          name="disc"
+            name="disc"
             value={form.disc}
             onChange={handleChange}
             placeholder="Project description..."
@@ -182,7 +199,10 @@ const Contact = () => {
           ></textarea>
 
           {/* Button */}
-          <button type="submit" className="w-full py-3 rounded-full bg-primary text-text font-semibold hover:scale-105 transition flex items-center justify-center gap-2 hover:text-text">
+          <button
+            type="submit"
+            className="w-full py-3 rounded-full bg-primary text-text font-semibold hover:scale-105 transition flex items-center justify-center gap-2 hover:text-text"
+          >
             {loading ? "Sending..." : "Send Message →"}
           </button>
         </form>

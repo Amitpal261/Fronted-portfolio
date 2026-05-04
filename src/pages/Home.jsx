@@ -4,12 +4,14 @@ import SkillsSlider from "../components/SkillSilder";
 import MyPotential from "./MyPotential";
 import MovingBanner from "../components/MovingBanner";
 import ProjectComponent from "../components/ProjectComponent";
+import { useNavigate } from "react-router-dom";
 
 
 function Home() {
   const titleRef = useRef([]);
   const contentRef = useRef();
   const imagesRef = useRef([]);
+  const navigate = useNavigate()
 
   const addTitleRef = (el) => {
     if (el && !titleRef.current.includes(el)) {
@@ -153,10 +155,11 @@ function Home() {
                 </h2>
 
                 <div className="flex gap-4 pt-2" ref={addTitleRef}>
-                  <button className="px-6 py-2 bg-white text-black rounded-full font-semibold hover:scale-105 transition">
+                  <button onClick={()=>navigate("/contact")} className="px-6 py-2 bg-white text-black rounded-full font-semibold hover:scale-105 transition">
                     Hire Me
                   </button>
                   <button
+                   onClick={()=>navigate("/projects")}
                     ref={addTitleRef}
                     className="px-6 py-2 border text-white rounded-full hover:bg-primary hover:text-white transition"
                   >
